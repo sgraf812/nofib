@@ -52,13 +52,13 @@ revcomp-c : revcomp-c.o
 	gcc $< -o $@ -pthread
 
 reverse-complement.faststdout : revcomp-c
-	./revcomp-c < $(INPUT_FILE) > $@
+	./revcomp-c < $(INPUT_FILE) | tr -d '\r' > $@
 
 reverse-complement.stdout : revcomp-c
-	./revcomp-c < $(INPUT_FILE) > $@
+	./revcomp-c < $(INPUT_FILE) | tr -d '\r' > $@
 
 reverse-complement.slowstdout : revcomp-c
-	./revcomp-c < $(INPUT_FILE) > $@
+	./revcomp-c < $(INPUT_FILE) | tr -d '\r' > $@
 
 # Since the stdout files are created during the run the runstdtest
 # script doesn't correctly pick them up, so we have to specify them
