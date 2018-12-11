@@ -95,6 +95,8 @@ shootout/spectral-norm/spectral-norm
 spectral/ansi/ansi
 spectral/atom/atom
 spectral/awards/awards
+spectral/awards/*.stdout
+spectral/awards/*.slowstdout
 spectral/banner/banner
 spectral/boyer/boyer
 spectral/boyer2/boyer2
