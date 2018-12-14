@@ -1,4 +1,3 @@
-\begin{code}
 module Prog(prog) where
 
 
@@ -32,4 +31,3 @@ prog rawinp =
   lined@(head:rest) = lines rawinp
   operations =
     if (head=="batch") then operationsBatch else interpret lined
-\end{code}
