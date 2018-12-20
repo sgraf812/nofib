@@ -52,7 +52,7 @@ real/hpg/hpg
 real/infer/infer
 real/lift/lift
 real/linear/linear
-real/maillist/runtime_files/addresses.tex
+real/maillist/runtime_files/*.tex
 real/maillist/maillist
 real/mkhprog/mkhprog
 real/parser/parser
