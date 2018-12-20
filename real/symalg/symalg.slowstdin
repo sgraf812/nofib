@@ -1,4 +1,4 @@
-$prec = 15000
+$prec = 40000
 sqrt(2)
 sqrt(3)
 sqrt(4)
